@@ -1,0 +1,57 @@
+#
+# visual studio directories
+#
+vs2013/
+vs2015/
+
+# vs runtime libs
+concrt*.dll
+msvcp*.dll
+vcamp*.dll
+vccorlib*.dll
+vcomp*.dll
+vcruntime*.dll
+
+#
+# kde plasma 5 files
+#
+.directory
+
+# gcc header files
+*.gch
+
+#
+# visual studio generated files
+#
+*.idb
+*.ilk
+*.pdb
+*.exp
+
+#
+# eclipse files (for now)
+#
+.cproject
+.project
+.settings/
+
+# windows executables
+*.exe
+# windows libraries
+*.lib
+# keep prenmake executable
+!build/premake/*
+!bin/*
+
+# compiled object files
+*.[oa]
+
+# backup files
+*.bak
+
+# apps
+spin
+mp1
+mp2
+mp3
+
