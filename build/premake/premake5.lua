@@ -35,7 +35,7 @@ print ("  Include           : " .. OGREIncPath)
 print ("  Libraries Debug   : " .. OGRELibDebugPath)
 print ("  Libraries Release : " .. OGRELibReleasePath)
 
-workspace "ogre-examples"
+workspace "examples"
 
    -- destination directory for generated solution/project files
    location (locationPath)
@@ -70,4 +70,5 @@ workspace "ogre-examples"
       end
 
    -- example apps
-   dofile "examples.lua"
+   dofile "app-dev.lua"
+   dofile "beginners.lua"
