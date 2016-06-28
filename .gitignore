@@ -39,6 +39,8 @@ vcruntime*.dll
 *.exe
 # windows libraries
 *.lib
+# ogre files
+bin/ogre.log
 # keep prenmake executable
 !build/premake/*
 !bin/*

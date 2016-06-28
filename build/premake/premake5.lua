@@ -16,6 +16,7 @@ end
 -- directory locations for framework and 3rd party dependencies
 --
 OGRE_ROOT  = "../../../ogre-sdk-1.9.0"
+--OGRE_ROOT  = "../../../ogre-sdk-2.1.0"
 BOOST_ROOT = "../../../boost-1.61"
 
 locationPath  = "../" .. _ACTION
