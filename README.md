@@ -21,4 +21,3 @@ OGRE-SDK-1.9.0-vc120-x86-12.03.2016.7z
 
 At startup OGRE loads 3 configuration files:
 ogre.cfg, plugins.cfg and resources.cfg
-
